@@ -14,8 +14,9 @@ body {
 }
 .popup {
   background-color: #fff;
-  padding: 40px 60px;
+  padding: 30px 50px;
   border-radius: 15px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
 
 button {
@@ -132,9 +133,43 @@ header .close {
 }
 
 .icons a i {
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.5s ease-in-out;
 }
 
 .icons a:hover i {
   transform: scale(1.2);
 }
+
+.content .field {
+  margin: 12px 0 -5px 0;
+  height: 45px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  padding: 0 5px;
+}
+
+.field i {
+  width: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.field.active {
+  color: #041897;
+  border-color: #041897;
+}
+
+.field input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+}
+
+.field button {
+  padding: 5px 18px;
+  background: #041897;
+  color: #fff;
+}
+

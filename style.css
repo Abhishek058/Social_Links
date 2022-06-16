@@ -154,11 +154,6 @@ header .close {
   font-size: 18px;
 }
 
-.field.active {
-  color: #041897;
-  border-color: #041897;
-}
-
 .field input {
   border: none;
   outline: none;

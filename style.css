@@ -14,7 +14,7 @@ body {
 }
 .popup {
   background-color: #fff;
-  padding: 30px 50px;
+  padding: 20px 30px;
   border-radius: 15px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
 }
@@ -149,7 +149,7 @@ header .close {
 }
 
 .field i {
-  width: 50px;
+  width: 100%;
   text-align: center;
   font-size: 18px;
 }
